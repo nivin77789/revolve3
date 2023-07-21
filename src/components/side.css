@@ -1,0 +1,214 @@
+.dash {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  color: grey;
+  cursor: pointer;
+}
+
+.set:hover {
+  color: #5d5fef;
+}
+.sales:hover {
+  color: #5d5fef;
+}
+.dark:hover {
+  color: #5d5fef;
+}
+.pay:hover {
+  color: #5d5fef;
+}
+.order:hover {
+  color: #5d5fef;
+}
+.cust:hover {
+  color: #5d5fef;
+}
+.invent:hover {
+  color: #5d5fef;
+}
+.top:hover {
+  color: #5d5fef;
+}
+.fore:hover {
+  color: #5d5fef;
+}
+.bord:hover {
+  color: #5d5fef;
+}
+.lead:hover {
+  color: #5d5fef;
+}
+
+.set:focus {
+  border: 2px solid #5d5fef;
+  border-radius: 8px;
+  color: #5d5fef;
+  height: 40px;
+  width: 190px;
+}
+.sales:focus {
+  border: 2px solid #5d5fef;
+  border-radius: 8px;
+  color: #5d5fef;
+  height: 40px;
+  width: 190px;
+}
+
+.pay:focus {
+  border: 2px solid #5d5fef;
+  border-radius: 8px;
+  color: #5d5fef;
+  height: 40px;
+  width: 190px;
+}
+.order:focus {
+  border: 2px solid #5d5fef;
+  border-radius: 8px;
+  color: #5d5fef;
+  height: 40px;
+  width: 190px;
+}
+.cust:focus {
+  border: 2px solid #5d5fef;
+  border-radius: 8px;
+  color: #5d5fef;
+  height: 40px;
+  width: 190px;
+}
+.invent:focus {
+  border: 2px solid #5d5fef;
+  border-radius: 8px;
+  color: #5d5fef;
+  height: 40px;
+  width: 190px;
+}
+.top:focus {
+  border: 2px solid #5d5fef;
+  border-radius: 8px;
+  color: #5d5fef;
+  height: 40px;
+  width: 190px;
+}
+.fore:focus {
+  border: 2px solid #5d5fef;
+  border-radius: 8px;
+  color: #5d5fef;
+  height: 40px;
+  width: 190px;
+}
+.bord:focus {
+  border: 2px solid #5d5fef;
+  border-radius: 8px;
+  color: #5d5fef;
+  height: 40px;
+  width: 190px;
+}
+.lead:focus {
+  border: 2px solid #5d5fef;
+  border: 2px solid #5d5fef;
+  border-radius: 8px;
+  color: #5d5fef;
+  height: 40px;
+  width: 190px;
+}
+
+.sign {
+  border: none;
+  padding-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 40px;
+  width: 190px;
+  color: #5d5fef;
+  background-color: rgba(255, 255, 255, 0);
+}
+.sign h1 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.sign:active {
+  margin-top: 50px;
+  background-color: #5d5fef;
+  color: white;
+}
+
+.sign .material-symbols-outlined {
+  padding-right: 20px;
+  color: #5d5fef;
+}
+.dash .material-symbols-outlined {
+  padding-right: 20px;
+}
+.dash h1 {
+  font-size: medium;
+  font-weight: 400;
+}
+.menu-icon {
+  background-color: rgba(240, 248, 255, 0);
+  position: fixed;
+  top: 20px;
+  color: #5d5fef;
+  padding-left: 5px;
+  border: none;
+  cursor: pointer;
+}
+.menu-logo {
+  background-color: rgba(240, 248, 255, 0);
+  font-size: 38px;
+}
+.menu-logo:hover {
+  background-color: rgba(128, 128, 128, 0.09);
+  border-radius: 5px;
+}
+.menu-logo:active {
+  background-color: rgba(84, 84, 84, 0.136);
+  border-radius: 5px;
+}
+.nav {
+  display: grid;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 3px;
+  padding-top: 20px;
+  height: 90vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    position: absolute;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 3px;
+    padding-top: 20px;
+    height: 90vh;
+    z-index: 100;
+  }
+  .menu-icon {
+    background-color: rgba(240, 248, 255, 0);
+    position: fixed;
+    top: 10px;
+    color: #5d5fef;
+    padding-left: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  .menu-logo {
+    background-color: rgba(240, 248, 255, 0);
+    font-size: 40px;
+  }
+  .menu-logo:hover {
+    background-color: rgba(128, 128, 128, 0.09);
+    border-radius: 5px;
+  }
+  .menu-logo:active {
+    background-color: rgba(84, 84, 84, 0.136);
+    border-radius: 5px;
+  }
+}

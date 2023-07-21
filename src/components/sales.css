@@ -1,0 +1,148 @@
+.round4 {
+  height: 35px;
+  width: 35px;
+  border-radius: 8px;
+  color: white;
+  background-color: #bf83ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box4 {
+  padding: 10px;
+  border-radius: 15px;
+  margin-right: 5px;
+  background-color: #f3e8ff;
+}
+
+.round3 {
+  height: 35px;
+  width: 35px;
+  border-radius: 8px;
+  color: white;
+  background-color: #3cd856;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box3 {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #dcfce7;
+}
+
+.round2 {
+  height: 35px;
+  width: 35px;
+  border-radius: 8px;
+  color: white;
+  background-color: #ff947a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box2 {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #fff4de;
+}
+.box h4 {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #151d48;
+}
+.box h2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #425166;
+}
+.box h3 {
+  font-size: 10px;
+  font-weight: 500;
+  color: #4079ed;
+}
+.box {
+  display: inline;
+  margin-left: 5px;
+  height: 115px;
+}
+.round1 {
+  height: 35px;
+  width: 35px;
+  border-radius: 8px;
+  color: white;
+  background-color: #fa5a7d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box1 {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #ffe2e5;
+}
+.sale-d-bot {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  line-height: 0%;
+}
+.sale-d-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.exp-button p {
+  font-size: 12px;
+  padding-right: 5px;
+}
+.sale-down p {
+  font-size: 12px;
+  padding-left: 15px;
+}
+.exp-button {
+  cursor: pointer;
+  color: #727272;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 20px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 8px;
+  border: 1px solid rgba(114, 114, 114, 0.516);
+  height: 30px;
+  width: 80px;
+}
+.sale-down {
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 5px;
+  margin-top: 10px;
+  margin-right: 6px;
+  height: 210px;
+}
+.nav {
+  width: 280px;
+  background-color: #ffff;
+  height: 845px;
+}
+
+@media only screen and (max-width: 600px) {
+  .box h4 {
+    font-size: 16px;
+    font-weight: bolder;
+    color: #151d48;
+  }
+  .box h2 {
+    font-size: 9.5px;
+    font-weight: 500;
+    color: #425166;
+  }
+  .box h3 {
+    font-size: 6px;
+    font-weight: 500;
+    padding-top: 5px;
+    color: #4079ed;
+  }
+}
