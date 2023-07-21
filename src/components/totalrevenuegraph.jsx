@@ -3,51 +3,51 @@ import { ResponsiveBar } from "@nivo/bar";
 const data = [
   {
     country: "Mon",
-    "hot dog": 51,
+    "online sales": 51,
     "hot dogColor": "hsl(310, 70%, 50%)",
-    burger: 91,
+    "offline sales": 91,
     burgerColor: "hsl(265, 70%, 50%)",
   },
   {
     country: "Tue",
-    "hot dog": 199,
+    "online sales": 199,
     "hot dogColor": "hsl(239, 70%, 50%)",
-    burger: 193,
+    "offline sales": 193,
     burgerColor: "hsl(213, 70%, 50%)",
   },
   {
     country: "Wed",
-    "hot dog": 43,
+    "online sales": 43,
     "hot dogColor": "hsl(317, 70%, 50%)",
-    burger: 120,
+    "offline sales": 120,
     burgerColor: "hsl(26, 70%, 50%)",
   },
   {
     country: "Thu",
-    "hot dog": 167,
+    "online sales": 167,
     "hot dogColor": "hsl(128, 70%, 50%)",
-    burger: 92,
+    "offline sales": 92,
     burgerColor: "hsl(331, 70%, 50%)",
   },
   {
     country: "Fri",
-    "hot dog": 192,
+    "online sales": 192,
     "hot dogColor": "hsl(49, 70%, 50%)",
-    burger: 176,
+    "offline sales": 176,
     burgerColor: "hsl(118, 70%, 50%)",
   },
   {
     country: "Sat",
-    "hot dog": 61,
+    "online sales": 61,
     "hot dogColor": "hsl(274, 70%, 50%)",
-    burger: 68,
+    "offline sales": 68,
     burgerColor: "hsl(94, 70%, 50%)",
   },
   {
     country: "Sun",
-    "hot dog": 161,
+    "online sales": 161,
     "hot dogColor": "hsl(329, 70%, 50%)",
-    burger: 14,
+    "offline sales": 14,
     burgerColor: "hsl(133, 70%, 50%)",
   },
 ];
@@ -55,7 +55,7 @@ const Totalrevenuegraph = () => {
   return (
     <ResponsiveBar
       data={data}
-      keys={["hot dog", "burger"]}
+      keys={["online sales", "offline sales"]}
       indexBy="country"
       margin={{ top: 5, right: 40, bottom: 90, left: 60 }}
       padding={0.7}
