@@ -44,16 +44,19 @@
   margin: 10px;
 }
 .bot-left {
+  height: 270px;
   border-radius: 10px;
   background-color: white;
 }
 .bot-center {
+  height: 270px;
   border-radius: 10px;
   background-color: white;
   margin-left: 10px;
   margin-right: 10px;
 }
 .bot-right {
+  height: 270px;
   border-radius: 10px;
   background-color: white;
 }

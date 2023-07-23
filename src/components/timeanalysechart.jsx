@@ -1,60 +1,6 @@
 import { ResponsiveLine } from "@nivo/line";
 const data = [
   {
-    id: "Unique Customers",
-    color: "hsl(340, 70%, 50%)",
-    data: [
-      {
-        x: "jan",
-        y: 36,
-      },
-      {
-        x: "feb",
-        y: 156,
-      },
-      {
-        x: "mar",
-        y: 163,
-      },
-      {
-        x: "apr",
-        y: 286,
-      },
-      {
-        x: "may",
-        y: 193,
-      },
-      {
-        x: "jun",
-        y: 196,
-      },
-      {
-        x: "jul",
-        y: 290,
-      },
-      {
-        x: "aug",
-        y: 168,
-      },
-      {
-        x: "sep",
-        y: 24,
-      },
-      {
-        x: "oct",
-        y: 14,
-      },
-      {
-        x: "nov",
-        y: 206,
-      },
-      {
-        x: "dec",
-        y: 254,
-      },
-    ],
-  },
-  {
     id: "This month",
     color: "hsl(176, 70%, 50%)",
     data: [
@@ -163,7 +109,7 @@ const data = [
     ],
   },
 ];
-const Linechart = () => {
+const Timeanalysechart = () => {
   return (
     <ResponsiveLine
       data={data}
@@ -180,47 +126,32 @@ const Linechart = () => {
       curve="natural"
       axisTop={null}
       axisRight={null}
-      axisBottom={{
-        tickSize: 5,
-        tickPadding: 5,
-        tickRotation: 0,
-        legend: "",
-        legendOffset: 36,
-        legendPosition: "middle",
-      }}
-      axisLeft={{
-        tickSize: 5,
-        tickPadding: 5,
-        tickRotation: 0,
-        legend: "count",
-        legendOffset: -40,
-        legendPosition: "middle",
-      }}
+      axisBottom={null}
+      axisLeft={null}
       enableGridX={false}
-      colors={{ scheme: "set1" }}
-      lineWidth={2}
-      enablePoints={false}
-      pointSize={10}
-      pointColor="#000000"
+      enableGridY={false}
+      colors={{ scheme: "category10" }}
+      pointColor={{ from: "color", modifiers: [] }}
       pointBorderWidth={2}
-      pointBorderColor={{ from: "serieColor" }}
+      pointBorderColor={{ from: "color", modifiers: [] }}
       pointLabelYOffset={-12}
-      areaOpacity={0.15}
+      enableArea={true}
       useMesh={true}
       legends={[
         {
           anchor: "bottom",
           direction: "row",
           justify: false,
-          translateX: -35,
-          translateY: 50,
-          itemWidth: 82,
-          itemHeight: 20,
-          itemsSpacing: 25,
-          symbolSize: 10,
-          symbolShape: "circle",
+          translateX: 19,
+          translateY: 46,
+          itemsSpacing: 0,
           itemDirection: "left-to-right",
-          itemTextColor: "#777",
+          itemWidth: 80,
+          itemHeight: 20,
+          itemOpacity: 0.75,
+          symbolSize: 12,
+          symbolShape: "circle",
+          symbolBorderColor: "rgba(0, 0, 0, .5)",
           effects: [
             {
               on: "hover",
@@ -235,4 +166,4 @@ const Linechart = () => {
     />
   );
 };
-export default Linechart;
+export default Timeanalysechart;

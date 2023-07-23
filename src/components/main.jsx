@@ -5,8 +5,9 @@ import "./main.css";
 import Insights from "./insights";
 import Totalrevenuegraph from "./totalrevenuegraph";
 import Targetgraph from "./targetgraph";
-import Linechart from "./linechart";
 import Topeproducts from "./tope-products";
+import Timeanalysechart from "./timeanalysechart";
+import Lossgraph from "./lossgraph";
 
 function Main() {
   return (
@@ -42,7 +43,7 @@ function Main() {
         </div>
         <div className="mid-center">
           <h1>Time Analysis</h1>
-          <Linechart />
+          <Timeanalysechart />
         </div>
         <div className="mid-right">
           <h1>Target vs Reality</h1>
@@ -58,6 +59,7 @@ function Main() {
         </div>
         <div className="bot-right">
           <h1>Loss Graph</h1>
+          <Lossgraph />
         </div>
       </div>
     </div>
