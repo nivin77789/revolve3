@@ -5,6 +5,9 @@ import "./main.css";
 import Insights from "./insights";
 import Totalrevenuegraph from "./totalrevenuegraph";
 import Targetgraph from "./targetgraph";
+import Linechart from "./linechart";
+import Topeproducts from "./tope-products";
+
 function Main() {
   return (
     <div className="main">
@@ -39,6 +42,7 @@ function Main() {
         </div>
         <div className="mid-center">
           <h1>Time Analysis</h1>
+          <Linechart />
         </div>
         <div className="mid-right">
           <h1>Target vs Reality</h1>
@@ -47,7 +51,7 @@ function Main() {
       </div>
       <div className="bot">
         <div className="bot-left">
-          <h1>Top Products</h1>
+          <Topeproducts />
         </div>
         <div className="bot-center">
           <h1>Sales by Region</h1>

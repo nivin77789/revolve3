@@ -1,0 +1,13 @@
+.headding {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.headding h1 {
+  color: grey;
+  font-size: 13px;
+  font-weight: 500;
+}
+.headding hr {
+  border: 1px solid red;
+}

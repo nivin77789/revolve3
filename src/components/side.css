@@ -171,12 +171,14 @@
   border-radius: 5px;
 }
 .nav {
+  position: absolute;
   display: grid;
   align-items: center;
   justify-content: space-around;
   line-height: 3px;
   padding-top: 20px;
   height: 90vh;
+  z-index: 100;
 }
 
 @media only screen and (max-width: 600px) {
