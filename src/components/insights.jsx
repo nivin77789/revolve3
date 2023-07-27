@@ -1,5 +1,6 @@
 import React from "react";
 import Linechart from "./linechart";
+import "./insights.css";
 
 function Insights() {
   return (
